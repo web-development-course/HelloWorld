@@ -1,5 +1,5 @@
 # Hello World
-Our first web application
+Follow this tutorial to create your first web application!
 
 # Installations
 - Google Chrome (<a href="https://www.google.com/chrome/browser/desktop/" target="_blank">download</a>)
