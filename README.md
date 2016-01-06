@@ -32,8 +32,8 @@ Follow this tutorial to create your first web application!
 - Select the HelloWorld folder
 - Click 'Add Repository'
 - Write a commit message (e.g. "First Commit") and click [Commit]
-- Click [Publish] (in the top right corner) and publish to repository
-- (Windows only) click [Sync] (in the top right corner)
+- Click the top right [Publish] button, then publish the repository
+- (Windows only) click the top right [Sync] button to push the code
 - Go to github.com and make sure that the repository exists with all the code
  
 # Connect to Heroku
