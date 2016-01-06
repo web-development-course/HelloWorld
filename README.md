@@ -30,17 +30,19 @@ Follow this tutorial to create your first web application!
 - Go to GitHub desktop and click the top left '+' sign
 - Choose Add
 - Select the HelloWorld folder
-- Click 'add repository'
+- Click 'Add Repository'
 - Write a commit message (e.g. "First Commit") and click [Commit]
-- Click [Publish] then [Push Repository]
-- (Windows only) click [Sync]
+- Click [Publish] (in the top right corner) and publish to repository
+- (Windows only) click [Sync] (in the top right corner)
 - Go to github.com and make sure that the repository exists with all the code
  
 # Connect to Heroku
 - Login to http://heroku.com
-- Create a new app (top right + sign)
+- Click '+' to create a new app (in the top right corner)
 - Give it a unique name
-- Connect it to your GitHub repository
+- In the 'Deploy' tab, connect it to your GitHub repository
 - Click [Enable Automatic Deploys]
 - Go to Manual Deploy and click [Deploy Branch]
 - Wait for the deploy to finish and click [View App]
+
+# Hooray! You now have your first published website
