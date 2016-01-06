@@ -26,9 +26,15 @@ Follow this tutorial to create your first web application!
 
 # Connect to a Git Repository
 - Open the GitHub desktop app, login with your account
-- Add a new Repository (click the top left + sign > choose add > select the helloworld folder)
+- (Windows only) open the project directory in the command prompt and type `git init`
+- Go to GitHub desktop and click the top left '+' sign
+- Choose Add
+- Select the HelloWorld folder
+- Click 'add repository'
 - Write a commit message (e.g. "First Commit") and click [Commit]
 - Click [Publish] then [Push Repository]
+- (Windows only) click [Sync]
+- Go to github.com and make sure that the repository exists with all the code
  
 # Connect to Heroku
 - Login to http://heroku.com
