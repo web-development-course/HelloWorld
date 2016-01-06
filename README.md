@@ -34,7 +34,7 @@ Follow this tutorial to create your first web application!
 - Write a commit message (e.g. "First Commit") and click [Commit]
 - Click the top right [Publish] button, then publish the repository
 - (Windows only) click the top right [Sync] button to push the code
-- Go to github.com and make sure that the repository exists with all the code
+- Go to http://github.com and make sure that the repository exists with all the code
  
 # Connect to Heroku
 - Login to http://heroku.com
