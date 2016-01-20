@@ -17,25 +17,25 @@ Follow this tutorial to create your first web application!
 - Run the app `sails lift`
 - Open Chrome and navigate to localhost:1337 to see the app
  
-# Make Some Modifications
-- Open Sublime Text
+# Make Some Modifications 
+- Open Visual Studio Code
 - Open the `helloworld` folder 
 - Open the `views` folder and click on the `homepage.ejs` file
 - Change the text `A brand new app` and change it to any text you want
 - Save the file
 
 # Connect to a Git Repository
-- Open the GitHub desktop app, login with your account
-- (Windows only) open the project directory in the command prompt and type `git init`
+- In Visual Studio Code, click on the Git icon (third from the top on the left)
+- Click `Initialize Git Repository`
+- Write a commit message and click the checkmark icon
 - Go to GitHub desktop and click the top left '+' sign
 - Choose Add
 - Select the HelloWorld folder
 - Click 'Add Repository'
-- Write a commit message (e.g. "First Commit") and click [Commit]
 - Click the top right [Publish] button, then publish the repository
-- (Windows only) click the top right [Sync] button to push the code
 - Go to http://github.com and make sure that the repository exists with all the code
- 
+- In Visual Studio Code, in the Git section, click on the three dots (top left) and choose `Git Push`
+
 # Connect to Heroku
 - Login to http://heroku.com
 - Click '+' to create a new app (in the top right corner)
