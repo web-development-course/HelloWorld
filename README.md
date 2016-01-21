@@ -8,7 +8,7 @@ Follow this tutorial to create your first web application!
 - Node.js v4.2.3 (<a href="https://nodejs.org/en/" target="_blank">download</a>)
 - Heroku Toolbelt (<a href="https://signup.heroku.com/login" target="_blank">signup</a> & <a href="https://toolbelt.heroku.com/" target="_blank">download</a>)
  
-# Create your Code Directory
+# Create your Code Directory (one time only)
 - Open Node.js command prompt (windows) or the terminal (mac)
 - Create a new folder named `Code` (windows: `md Code`, mac: `mkdir Code`) 
 - Enter into your new folder `cd Code`
