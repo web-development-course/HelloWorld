@@ -5,7 +5,7 @@ Follow this tutorial to create your first web application!
 - Google Chrome [Download here](https://www.google.com/chrome/browser/desktop/)
 - Node.js LTS [Download here](https://nodejs.org/en/)
 - Visual Studio Code [Download here](https://code.visualstudio.com/Download)
-- GitHub => [Signup here](https://github.com/join) & [Download here](https://desktop.github.com/)
+- GitHub [Signup here](https://github.com/join) & [Download here](https://desktop.github.com/)
 - Heroku Toolbelt [Signup here](https://signup.heroku.com/login) & [Download here](https://toolbelt.heroku.com/")
  
 # Create your Code Directory (one time only)
