@@ -1,29 +1,31 @@
 # Hello World
 Follow this tutorial to create your first web application!
 
-# Installations
-- Google Chrome (<a href="https://www.google.com/chrome/browser/desktop/" target="_blank">download</a>)
-- Sublime Text (<a href="http://www.sublimetext.com/" target="_blank">download</a>)
-- GitHub (<a href="https://github.com/join" target="_blank">signup</a> & <a href="https://desktop.github.com/" target="_blank">download</a>)
-- Node.js v4.2.3 (<a href="https://nodejs.org/en/" target="_blank">download</a>)
-- Heroku Toolbelt (<a href="https://signup.heroku.com/login" target="_blank">signup</a> & <a href="https://toolbelt.heroku.com/" target="_blank">download</a>)
+# Installations & Registrations
+- Google Chrome [Download here](https://www.google.com/chrome/browser/desktop/)
+- Node.js LTS [Download here](https://nodejs.org/en/)
+- Visual Studio Code [Download here](https://code.visualstudio.com/Download)
+- GitHub => [Signup here](https://github.com/join) & [Download here](https://desktop.github.com/)
+- Heroku Toolbelt [Signup here](https://signup.heroku.com/login) & [Download here](https://toolbelt.heroku.com/")
  
 # Create your Code Directory (one time only)
 - Open Node.js command prompt (windows) or the terminal (mac)
-- Create a new folder named `Code` (windows: `md Code`, mac: `mkdir Code`) 
+- Go to your home directory (windows: `cd \` | mac: `cd ~`) 
+- Create a new folder named Code (windows: `md Code` | mac: `mkdir Code`) 
 - Enter into your new folder `cd Code`
 - Install Sails.js `npm install -g sails`
+- Open GitHub Desktop and login with your account
 
-# Create the Application
-- In the Code directory, Generate the app `sails new helloworld`
+# Create the HelloWorld Application
+- In the Code directory, Generate the helloworld app `sails new helloworld` (your can change 'helloworld' with any other app name)
 - Navigate into the new generated app folder `cd helloworld`
 - Run the app `sails lift`
 - Open Chrome and navigate to localhost:1337 to see the app
  
 # Make Some Modifications 
 - Open Visual Studio Code
-- Open the `helloworld` folder 
-- Open the `views` folder and click on the `homepage.ejs` file
+- Open the `helloworld` folder (File > Open)
+- Click on the `views` folder and click on the `homepage.ejs` file
 - Change the text `A brand new app` and change it to any text you want
 - Save the file
 
@@ -32,7 +34,7 @@ Follow this tutorial to create your first web application!
 - Click `Initialize Git Repository`
 - Write a commit message and click the checkmark icon
 - Go to [GitHub](http://github.com), login and create a new repository
-- In the setup screen, copy the bottom two lines (..or push an existing repository from the command line)
+- In the setup screen, copy the bottom two lines (under "..or push an existing repository from the command line")
 - In the command prompt, in your app directory, paste these lines and click [Enter]
 - In Visual Studio Code, in the Git section, click on the three dots (top left) and choose `Publish` or `Sync` (whichever's available)
 - Go back to the repository on [GitHub](http://github.com), and make sure that the repository exists with all the code
