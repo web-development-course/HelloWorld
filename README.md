@@ -30,7 +30,8 @@ Follow this tutorial to create your first web application!
 - Save the file
 
 # Connect to a Git Repository
-- In Visual Studio Code, click on the Git icon (third from the top on the left)
+- Open the `helloworld` folder in Visual Studio Code (if not already open)
+- Click on the Git icon (third from the top on the left)
 - Click `Initialize Git Repository`
 - Write a commit message and click the checkmark icon
 - Go to [GitHub](http://github.com), login and create a new repository
