@@ -37,6 +37,7 @@ Follow this tutorial to create your first web application!
 - Go to [GitHub](http://github.com), login and create a new repository
 - In the setup screen, copy the bottom two lines (under "..or push an existing repository from the command line")
 - In the command prompt, in your app directory, paste these lines and click [Enter]
+- In windows, paste this line as well `git config --global credential.helper wincred`
 - In Visual Studio Code, in the Git section, click on the three dots (top left) and choose `Publish` or `Sync` (whichever's available)
 - Go back to the repository on [GitHub](http://github.com), and make sure that the repository exists with all the code
 
