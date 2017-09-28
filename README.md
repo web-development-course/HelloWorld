@@ -26,6 +26,8 @@ Follow this tutorial to create your first web application!
 - Click on the `views` folder and click on the `homepage.ejs` file
 - Change the text `A brand new app` and change it to any text you want
 - Save the file
+- Refresh the browser to see the change
+
 
 # Upload to Now.sh
 - Open the now.sh app icon (in the top tollbar)
