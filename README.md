@@ -12,9 +12,9 @@ Follow this tutorial to create your first web application!
 - Go to your home directory (windows: `cd \` | mac: `cd ~`) 
 - Create a new folder named Code (windows: `md Code` | mac: `mkdir Code`) 
 - Enter into your new folder `cd Code`
-- Install Sails.js `npm install -g sails`
 
 # Create the HelloWorld Application
+- Install Sails.js: open the terminal and type `npm install -g sails`
 - In the Code directory, Generate the helloworld app `sails new helloworld` (your can change 'helloworld' with any other app name)
 - Navigate into the new generated app folder `cd helloworld`
 - Run the app `sails lift`
@@ -30,8 +30,9 @@ Follow this tutorial to create your first web application!
 
 
 # Upload to Now.sh
-- Open the now.sh app icon (in the top tollbar)
-- Drag the entire `helloworld` folder into you app icon
+- Install Now.sh CLI: open the terminal and type `npm install -g now`
+- Create an account in [Now.sh](http://www.now.sh) and approve your email
+- In the `HelloWorld` directory type the command `now` (enter your credentials if needed)
 - Wait for the deployment to finish
 
 # Hooray! You now have your first published website
