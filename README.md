@@ -47,7 +47,7 @@ Type `sails new helloworld` (you can change 'helloworld' with any other app name
 # Deploy your app
 ## Upload to heroku
 - Open the terminal 
-- if sails server is running (with the boat thing), press Cmd+C (mac) or Ctrl+C (Windows) to terminate it.
+- if sails server is running (with the boat thing), press Ctrl+C to terminate it.
 - In the `helloworld` directory, create a new app in Heroku. Type `git init && heroku create` (**first time only**)
 - Deploy your app `git add . && git commit --no-edit --allow-empty-message && git push heroku master` (**every time you change the code**)
 - Wait for the deployment to finish
@@ -55,7 +55,7 @@ Type `sails new helloworld` (you can change 'helloworld' with any other app name
 
 ## Upload to Now.sh
 - Open the terminal
-- if sails server is running (with the boat thing), press Cmd+C (mac) or Ctrl+C (Windows) to terminate it.
+- if sails server is running (with the boat thing), press Ctrl+C to terminate it.
 - In the `helloworld` directory type the command `now` (enter your credentials if needed)
 - Wait for the deployment to finish
 - Open your app (the url will be written at the beginning under `Ready! https://[your-app-name].now.sh/ (copied to clipboard)`
