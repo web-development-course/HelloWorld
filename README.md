@@ -39,7 +39,7 @@ This might take a while to install
 # Deploy your app
 ## Upload to heroku
 - Open another command prompt (windows) or the terminal (mac)
-- In the `HelloWorld` directory, create a new app in Heroku `git init && heroku create` (copy and save the new app url)
+- In the `HelloWorld` directory, create a new app in Heroku `git init && heroku create` (first time only)
 - Deploy your app `git add . && git commit --no-edit --allow-empty-message && git push heroku master`
 - Wait for the deployment to finish
 - Open your app (the url will be written at the end under `remote:    https://[your-app-name].herokuapp.com/ deployed to Heroku`)
