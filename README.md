@@ -6,8 +6,7 @@ Follow this tutorial to create your first web application!
 - Google Chrome [Download here](https://www.google.com/chrome/browser/desktop/)
 - Node.js LTS [Download here](https://nodejs.org/en/)
 - Visual Studio Code [Download here](https://code.visualstudio.com/Download)
-- Now.sh [Download here](https://zeit.co/download) | [Signup here](https://zeit.co/login)
-- Heroku [Signup here](https://signup.heroku.com/)
+- Now.sh [Download here](https://zeit.co/download)
 
 ## Command Line Installations
 To install in the command line, open the command prompt (windows) or the terminal (mac) and type
@@ -16,8 +15,12 @@ npm install -g sails now heroku-cli git
 ```
 This might take a while to install
 
+## Registrations
+- Now.sh [Signup here](https://zeit.co/login)
+- Heroku [Signup here](https://signup.heroku.com/)
+
 # Create your Code Directory (one time only)
-- Open the command prompt (windows) or the terminal (mac)
+- Open another command prompt (windows) or the terminal (mac)
 - Go to your home directory (windows: `cd \` | mac: `cd ~`) 
 - Create a new folder named Code (windows: `md Code` | mac: `mkdir Code`) 
 - Enter into your new folder `cd Code`
