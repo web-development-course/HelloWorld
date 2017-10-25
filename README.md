@@ -42,10 +42,12 @@ This might take a while to install
 - In the `HelloWorld` directory, create a new app in Heroku `git init && heroku create` (copy and save the new app url)
 - Deploy your app `git add . && git commit --no-edit --allow-empty-message && git push heroku master`
 - Wait for the deployment to finish
+- Open your app (the url will be written at the end under `remote:    https://[your-app-name].herokuapp.com/ deployed to Heroku`)
 
 ## Upload to Now.sh
 - Open another command prompt (windows) or the terminal (mac)
 - In the `HelloWorld` directory type the command `now` (enter your credentials if needed)
 - Wait for the deployment to finish
+- Open your app (the url will be written at the beginning under `Ready! https://[your-app-name].now.sh/ (copied to clipboard)`
 
 # Hooray! You now have your first published website
