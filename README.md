@@ -7,8 +7,8 @@ Follow this tutorial to create your first web application!
 - Node.js LTS [Download here](https://nodejs.org/en/)
 - Visual Studio Code [Download here](https://code.visualstudio.com/Download)
 - Now.sh [Download here](https://zeit.co/download) | [Signup here](https://zeit.co/login)
-- Github [Download here](https://desktop.github.com/) | [Signup here](https://github.com/join)
 - Heroku [Signup here](https://signup.heroku.com/)
+
 ## Command Line Installations
 To install in the command line, open the command prompt (windows) or the terminal (mac) and type
 ```
