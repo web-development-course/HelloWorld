@@ -2,19 +2,27 @@
 Follow this tutorial to create your first web application!
 
 # Installations & Registrations
+## Desktop Installations
 - Google Chrome [Download here](https://www.google.com/chrome/browser/desktop/)
 - Node.js LTS [Download here](https://nodejs.org/en/)
 - Visual Studio Code [Download here](https://code.visualstudio.com/Download)
-- Now.sh [Download here](https://zeit.co/download)
- 
+- Now.sh [Download here](https://zeit.co/download) | [Signup here](https://zeit.co/login)
+- Github [Download here](https://desktop.github.com/) | [Signup here](https://github.com/join)
+- Heroku [Signup here](https://signup.heroku.com/)
+## Command Line Installations
+To install in the command line, open the command prompt (windows) or the terminal (mac) and type
+```
+npm install -g sails now heroku-cli git
+```
+This might take a while to install
+
 # Create your Code Directory (one time only)
-- Open Node.js command prompt (windows) or the terminal (mac)
+- Open the command prompt (windows) or the terminal (mac)
 - Go to your home directory (windows: `cd \` | mac: `cd ~`) 
 - Create a new folder named Code (windows: `md Code` | mac: `mkdir Code`) 
 - Enter into your new folder `cd Code`
 
 # Create the HelloWorld Application
-- Install Sails.js: open the terminal and type `npm install -g sails`
 - In the Code directory, Generate the helloworld app `sails new helloworld` (your can change 'helloworld' with any other app name)
 - Navigate into the new generated app folder `cd helloworld`
 - Run the app `sails lift`
@@ -28,10 +36,13 @@ Follow this tutorial to create your first web application!
 - Save the file
 - Refresh the browser to see the change
 
+# Deploy your app
+## Upload to heroku
+- In the `HelloWorld` directory, create a new app in Heroku `git init && heroku create` (copy and save the new app url)
+- Deploy your app `git add . && git commit --no-edit --allow-empty-message && git push heroku master`
+- Wait for the deployment to finish
 
-# Upload to Now.sh
-- Install Now.sh CLI: open the terminal and type `npm install -g now`
-- Create an account in [Now.sh](http://www.now.sh) and approve your email
+## Upload to Now.sh
 - In the `HelloWorld` directory type the command `now` (enter your credentials if needed)
 - Wait for the deployment to finish
 
