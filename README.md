@@ -38,11 +38,13 @@ This might take a while to install
 
 # Deploy your app
 ## Upload to heroku
+- Open another command prompt (windows) or the terminal (mac)
 - In the `HelloWorld` directory, create a new app in Heroku `git init && heroku create` (copy and save the new app url)
 - Deploy your app `git add . && git commit --no-edit --allow-empty-message && git push heroku master`
 - Wait for the deployment to finish
 
 ## Upload to Now.sh
+- Open another command prompt (windows) or the terminal (mac)
 - In the `HelloWorld` directory type the command `now` (enter your credentials if needed)
 - Wait for the deployment to finish
 
