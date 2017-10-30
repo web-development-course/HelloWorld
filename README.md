@@ -4,7 +4,7 @@ Follow this tutorial to create your first web application!
 # Installations & Registrations
 ## Desktop Installations
 - Google Chrome [Download here](https://www.google.com/chrome/browser/desktop/)
-- Node.js LTS [Download here](https://nodejs.org/en/)
+- Node.js Latest [Download here](https://nodejs.org/en/)
 - Visual Studio Code [Download here](https://code.visualstudio.com/Download)
 - Now.sh [Download here](https://zeit.co/download)
 - Git [Download here](https://git-scm.com/)
