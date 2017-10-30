@@ -7,6 +7,7 @@ Follow this tutorial to create your first web application!
 - Node.js LTS [Download here](https://nodejs.org/en/)
 - Visual Studio Code [Download here](https://code.visualstudio.com/Download)
 - Now.sh [Download here](https://zeit.co/download)
+- Git [Download here](https://git-scm.com/)
 
 ## Command Line Installations
 Open the terminal:
@@ -15,7 +16,7 @@ Open the terminal:
 
 Type the following command:
 ```
-npm install -g sails now heroku-cli git
+npm install -g sails now heroku-cli
 ```
 This might take a while to install, wait until the process is finished.
 
@@ -45,11 +46,20 @@ Type `sails new helloworld` (you can change 'helloworld' with any other app name
 - Refresh the browser to see the change
 
 # Deploy your app
-## Upload to heroku
+## Upload to heroku (recommended)
 - Open the terminal 
 - if sails server is running (with the boat thing), press Ctrl+C to terminate it.
-- In the `helloworld` directory, create a new app in Heroku. Type `git init && heroku create` (**first time only**)
-- Deploy your app `git add . && git commit --no-edit --allow-empty-message && git push heroku master` (**every time you change the code**)
+- Init the Git repository and create a new app in Heroku (**first time only**)
+  - Go to  the `helloworld` directory
+  - Type the following commands, one by one
+  - `git init`
+  - `heroku create`
+- Commit your changes and deploy your app to Heroku (**every time you change the code**)
+  - Go to the `helloworld` directory
+  - Type the following commands, one by one
+  - `git add .` 
+  - `git commit --no-edit --allow-empty-message` 
+  - `git push heroku master` 
 - Wait for the deployment to finish
 - Open your app (the url will be written at the end under `remote:    https://[your-app-name].herokuapp.com/ deployed to Heroku`)
 
